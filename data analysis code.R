@@ -278,7 +278,7 @@ plot_grid(HP.fig4,HI_plot3,nrow=2,labels=c("A","B"),label_size = 38)
 ############################ sexual isolation  ########################################
 #######################################################################################
 #### read mating preference data ####
-Mating.T<-read.csv("mate.preference.7.27.csv")
+Mating.T<-read.csv("mate.preference.csv")
 Mating.T<-Mating.T[,-1]
 unique(Mating.T$Source..M.)
 unique(Mating.T$Source..F.)
