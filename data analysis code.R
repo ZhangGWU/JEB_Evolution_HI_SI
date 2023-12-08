@@ -143,6 +143,20 @@ ddply(hp.sum,c("species"),summarize,TN=sum(N))
 
 ##### generating Figure 2A ###############
 hp.sum$N<-ddply(hp.sum,c("species"),summarize,TN=sum(N))$TN
+hp.sum$N<-ddply(hp.sum,c("species"),summarize,TN=sum(N))$TN
+
+hp.sum[9,"species"]<-"B. treatae"
+hp.sum[9,"Source"]<-"ylank"
+hp.sum[9,"N"]<-NA
+hp.sum[9,"pref"]<-NA
+hp.sum[9,"pref.SE"]<-NA
+host.pre.new[427,]<-host.pre.new[426,]
+host.pre.new[427,"HP"]<-"Qv-F"
+host.pre.new[427,"species"]<-"B. treatae"
+host.pre.new[427,"Source"]<-"ylank"
+host.pre.new[427,38:46]<-NA
+host.pre.new[427,"preference"]<--0.3
+host.pre.new$Source<-factor(host.pre.new$Source,levels=hp.sum$Source)
 hp.sum$Source<-as.factor(hp.sum$Source)
 hp.sum$Source<-factor(hp.sum$Source,levels=hp.sum$Source)
 HP.fig<-ggplot()+
@@ -199,6 +213,8 @@ hp.sum$species<-as.character(hp.sum$species)
 hp.sum$Source<-as.character(hp.sum$Source)
 
 ###################################################################
+host.pre.new$Qv.pre<-host.pre.new$preference
+host.pre.new$Qv.pre[host.pre.new$HP=="Qg"]<-1-host.pre.new$preference[host.pre.new$HP=="Qg"]
 ########## bootstrap of HI combining all populations ##############
 HI.bootsum<-data.frame(matrix(nrow=3,ncol=4))
 colnames(HI.bootsum)<-c("pair","HI","low.HI","high.HI")
