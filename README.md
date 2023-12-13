@@ -1,5 +1,5 @@
-### Data and code for JEB paper on evolution of habitat and sexual isolation ######
-### Title: The role of divergent host use and geography in the evolution of habitat isolation and sexual isolation among sister species of Belonocnema gall wasps #####
+## Data and code for JEB paper on evolution of habitat and sexual isolation ######
+#### Title: The role of divergent host use and geography in the evolution of habitat isolation and sexual isolation among sister species of Belonocnema gall wasps #####
 ###### Authors: Linyi Zhang, Glen Ray Hood, James R. Ott, and Scott P. Egan ###
 ###### For questions about data and code, please contact Linyi Zhang at linyi.zhang@gwu.edu or linyizhangecnu@gmail.com 
 
