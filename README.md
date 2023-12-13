@@ -1,4 +1,3 @@
-####################################################################################
 ### Data and code for JEB paper on evolution of habitat and sexual isolation ######
 #### Title: The role of divergent host use and geography in the evolution of habitat isolation and sexual isolation among sister species of Belonocnema gall wasps #####
 ###### Authors: Linyi Zhang, Glen Ray Hood, James R. Ott, and Scott P. Egan ###
@@ -16,9 +15,9 @@
 
 **"mate.preference.csv" is the data file document the measurements of mate preference across all three Belonocnema species.**
 
-+ Column "HP.M." and "HP.F." stand for which host plant the male/female wasp come from respectively. Here, "Qv-F" means waps invidividuals are from Q. vriginiana plants in sympatry. "Qv-T" means waps invidividuals are from Q. vriginiana plants in allopatry. "Qg" means waps invidividuals are from Q. geminata plants. 
++ The column labeled "Method" indicates the specific method used to conduct the host preference assay, which can be either a cup or a petri dish. The abbreviation "HP" is used to denote the host plant from which the individual wasps originated. In the column ""HP", "Qv-F" indicates that the individual wasps are from Q. virginiana plants in sympatry. "Qv-T" indicates that the individual wasps are from Q. virginiana plants in allopatry. "Qg" designates that the individual wasps are from Q. geminata plants.
 
-+ Column "Source..M." and "Source..F." stand for collection sites male/female wasp come from.   
++ The column labeled "Source..M." refers to the collection sites from which male wasps originated. The column labeled "Source..F." refers to the collection sites from which female wasps originated.
 
 + Columns labeled as "C", "W", "Mo", "Mt", "Mc" represent the occurance of mating behavior: "contact","Wing buzz","male mount","copulation", "male courtship inlcuding wing buzz and mount". 0 means no such behavior occurred during 30 mininutes observation. 1 means such behavior occured at least once  during 30 mininutes observation.
 
