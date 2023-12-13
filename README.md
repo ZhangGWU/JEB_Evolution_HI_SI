@@ -7,11 +7,11 @@
 
 **The R code file "data analysis code.R" includes all the packages you need to load and all the steps you need to regenerate the data analysis and figures.**
 
-+ **"Bt host preference new.csv" is the data file document the measurements of host preference across all three Belonocnema species.**:
++ **"Bt host preference new.csv" is the data file document the measurements of host preference across all three Belonocnema species.**
 
   - Column "Method" stands for the method of conducting host preference assay (cup or petri dish)."HP" stands for which host plant the wasp individual come from. "Qv-F" means waps invidividuals are from Q. vriginiana plants in sympatry. "Qv-T" means waps invidividuals are from Q. vriginiana plants in allopatry. "Qg" means waps invidividuals are from Q. geminata plants. 
 
-- Columns labeled from "0" to "20" represent the time interval the observation took. For instance, "0" represents observations of behavior before timing starts. "1" represents observation of behavior at the first time interval. 
+  - Columns labeled from "0" to "20" represent the time interval the observation took. For instance, "0" represents observations of behavior before timing starts. "1" represents observation of behavior at the first time interval. 
 
 + **"mate.preference.csv" is the data file document the measurements of mate preference across all three Belonocnema species.**
 - The column labeled "Method" indicates the specific method used to conduct the host preference assay, which can be either a cup or a petri dish. The abbreviation "HP" is used to denote the host plant from which the individual wasps originated. In the column ""HP", "Qv-F" indicates that the individual wasps are from Q. virginiana plants in sympatry. "Qv-T" indicates that the individual wasps are from Q. virginiana plants in allopatry. "Qg" designates that the individual wasps are from Q. geminata plants.
